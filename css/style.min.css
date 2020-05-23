@@ -6,14 +6,6 @@ Hex: #FFFFFF
 Name: Mango Tango
 Hex: #FF883E
 */
-
-
-
-
-
-
-
-
 body{margin:0;padding:0;font-family:'Montserrat',sans-serif;font-size:16px;color:#3f3f3f;background-color:#169B62}
 blockquote{position:relative;padding-left:70px;border:none}blockquote
 p{font-size:20px;line-height:28px;font-style:italic}
@@ -22,8 +14,10 @@ a,a:hover{color:#169B62}
 a{transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out}
 a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:none}
 
+
+
 .display-none{display:none}
-.header{margin-top:0;padding-top:30px;padding-bottom:30px;border:none}
+.header{margin-top:30;padding-top:30px;padding-bottom:30px;border:none}
 .header__logo{margin-right:-5px;margin-left:-5px;margin-bottom:30px;text-align:center}
 @media (max-width:991px){
     .header{
@@ -106,7 +100,7 @@ a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:no
 }
 .nav-toggle{display:none}
 
-@media (max-width:991px){.nav-toggle{display:block;text-align:center}
+@media (max-width:991px){.nav-toggle{display:block;text-align:left}
 .nav-toggle__icon{width:32px;height:32px;cursor:pointer;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out}
 .nav-toggle__icon:hover{opacity:.8}
 .nav-toggle__icon:focus{outline:0}.nav-toggle__icon:active{box-shadow:none}}
@@ -161,7 +155,7 @@ a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:no
 .container--grid .row{margin-bottom:0;box-shadow:none}}
 .category-title{padding-left:40px;padding-right:40px;text-align:center;color:#262626}
 .category-title h1{display:block;margin-top:0;margin-bottom:0;padding-top:30px;padding-bottom:30px;font-size:24px}
-.blog-post,.category-title{margin-bottom:30px;background-color:#fff;box-shadow:0 0 35px 5px rgba(156,156,156,.1)}
+.blog-post,.category-title{margin-bottom:30px;background-color:#ffffff;box-shadow:0 0 35px 5px rgba(156,156,156,.1)}
 .blog-post-wrapper{padding-left:40px;padding-right:40px}
 .blog-post__image{width:100%;margin-top:30px;overflow:hidden}
 .blog-post__image a:hover{opacity:1}
@@ -232,8 +226,11 @@ a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:no
 .blog-post__contact-thank-you a:hover{color:#262626;text-decoration:none;opacity:.8}
 .blog-post--fullwidth .blog-post-wrapper{padding-left:120px;padding-right:120px}
 .blog-post--fullwidth .blog-post-wrapper--404{padding-top:40px;padding-bottom:40px}
-.blog-post--grid{margin-bottom:0;box-shadow:none}.blog-post--grid .blog-post-wrapper{padding-left:15px;padding-right:15px}
-.blog-post--grid .blog-post__title h2{font-size:22px}.blog-post--grid .blog-post__content{padding-bottom:0;text-align:center}.blog-post--grid .blog-post__footer{justify-content:center}
+.blog-post--grid{margin-bottom:0;box-shadow:none}
+.blog-post--grid
+.blog-post-wrapper{padding-left:15px;padding-right:15px}
+.blog-post--grid
+.blog-post__title h2{font-size:22px}.blog-post--grid .blog-post__content{padding-bottom:0;text-align:center}.blog-post--grid .blog-post__footer{justify-content:center}
 .blog-post--list .blog-post__info--date{padding-top:30px}.blog-post--list .blog-post__info{padding-bottom:10px}
 .blog-post--list--fullwidth .blog-post__info--date{padding-top:80px}
 .blog-post--list .blog-post__image{width:50%;margin-top:0;padding-top:30px;padding-bottom:30px}
@@ -311,8 +308,10 @@ a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:no
 .sidebar-widget__popular-item-info{float:left;width:160px}
 .sidebar-widget__popular-item-info a{font-size:14px;font-weight:500;color:#262626;text-decoration:none;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out}
 .sidebar-widget__popular-item-info a:hover,.sidebar-widget__subscribe form input[type=submit]:hover{opacity:.8}
-.sidebar-widget__popular-item-date{line-height:1}.sidebar-widget__popular-item-content{margin-top:8px;line-height:1.2}
-.sidebar-widget__banner,.sidebar-widget__banner img{width:100%}.sidebar-widget__banner a{opacity:1}.sidebar-widget__tag-cloud{text-align:center}
+.sidebar-widget__popular-item-date span {line-height:1.5;font-weight: 400;color: white; }
+.sidebar-widget__popular-item-content{margin-top:8px;line-height:1.2}
+.sidebar-widget__banner,.sidebar-widget__banner img{width:100%}
+.sidebar-widget__banner a{opacity:1}.sidebar-widget__tag-cloud{text-align:center}
 .sidebar-widget__tag-cloud a{display:inline-block;padding:5px 10px;font-size:14px;font-weight:500;color:#262626;text-decoration:none;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out}
 .sidebar-widget__tag-cloud a:hover{border-color:#262626}.sidebar-widget__tag-cloud a:last-child{margin-right:0}.sidebar-widget__subscribe p{padding-top:0;padding-bottom:15px}.sidebar-widget__subscribe form{position:relative;width:100%;height:40px;border:1px solid #dcdcdc}
 .sidebar-widget__subscribe form input[type=text]{width:100%;height:38px;padding-left:10px;padding-right:60px;font-size:12px;border:0}.sidebar-widget__subscribe form input[type=submit]{position:absolute;top:0;right:0;height:38px;font-size:12px;border:0;color:#fff;background-color:#262626;letter-spacing:.2px;transition:all .2s ease-in-out;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out}
@@ -329,9 +328,10 @@ a:hover{opacity:.8;text-decoration:none}a:focus{color:#262626;text-decoration:no
 .sidebar-slider .featured-image__content-title a{font-weight:700;letter-spacing:.2px;color:#fff}
 .sidebar-slider .featured-image__content-link a{color:#fff}
 .sidebar-slider .featured-image__overlay-link{display:block;position:absolute;z-index:1;top:0;right:0;bottom:0;left:0}
+.sidebar-widget__spotify{width:100%;}
 
 @media (max-width:991px){
-    .sidebar-slider .featured-image__content
+    .sidebar-slider .featured-image__content  .sidebar-widget__spotify
     {
         transform:translate(-50%,-50%);top:50%;left:50%
         }}
@@ -371,3 +371,17 @@ nav.green{
 
 .liste_yesil{color:#169B62; font-weight:700; }
 .showing{ max-height: 20em; }
+
+
+
+
+#spacer {
+  height: 50px;
+  width: 100%;
+}
+
+
+
+.celtic{
+    font-family: meathflfregular;
+}

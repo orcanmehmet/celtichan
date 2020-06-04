@@ -6,6 +6,7 @@ Hex: #FFFFFF
 Name: Mango Tango
 Hex: #FF883E
 */
+
 body{margin:0;padding:0;font-family:'Montserrat',sans-serif;font-size:16px;color:#3f3f3f;background-color:#169B62}
 blockquote{position:relative;padding-left:70px;border:none}blockquote
 p{font-size:20px;line-height:28px;font-style:italic}
@@ -382,6 +383,18 @@ nav.green{
 
 
 
-.celtic{
-    font-family: meathflfregular;
+@font-face {
+    font-family:'raleway';
+    src:url(fonts/.ttf);
+    font-style: normal;
+    font-weight: 500;
+
 }
+
+.unselectable {
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+     }
